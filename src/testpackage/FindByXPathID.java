@@ -4,7 +4,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
-public class XPathID {
+public class FindByXPathID {
 
 	public static void main(String[] args) {
 		
