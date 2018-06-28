@@ -7,11 +7,10 @@ public class ChromeDriverDemo {
 
 	public static void main(String[] args) {
 
-		// https://chromedriver.storage.googleapis.com/index.html
 		String baseURL = "http://uol.com.br";
 		WebDriver driver;
 
-		System.setProperty("webdriver.chrome.driver", "C:/Users/Jacyzin/Documents/selenium/chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:/Users/Jacyzin/Documents/selenium/drivers/chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.get(baseURL);
 		
