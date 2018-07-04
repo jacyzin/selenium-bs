@@ -49,6 +49,9 @@ class NavigatingBetween {
 		
 		driver.get(currentUrl);
 		
+		String pageSource = driver.getPageSource();
+		System.out.println("PageSource: " + pageSource);
+		
 	}
 	
 	@AfterEach
